@@ -97,16 +97,16 @@ html { height: 100%;}
     background-color: #1a1a1a;
 }
 .sidebar-nav li:nth-child(2):before {
-    background-color: rgb(83, 3, 3); 
+    background-color: rgb(11, 79, 110); 
 }
 .sidebar-nav li:nth-child(3):before {
-    background-color: rgb(179, 34, 82);  
+    background-color: rgb(83, 3, 8);  
 }
 .sidebar-nav li:nth-child(4):before {
-    background-color: rgb(224, 114, 47);   
+    background-color: rgb(179, 34, 82);   
 }
 .sidebar-nav li:nth-child(5):before {
-    background-color: #279636;   
+    background-color: rgb(224, 114, 47);   
 }
 
 .sidebar-nav li:hover:before,
