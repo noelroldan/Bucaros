@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Grupo de trabajo</title>
+  <!-- Bootstrap core CSS-->
+  <link href="../css/bootstrap/bootstrap.css" rel="stylesheet">
+  <link href="../css/menu-sidebar.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+ <div id="wrapper">
+        <div class="overlay"></div>
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                       Portafolios
+                    </a>
+                </li>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Campos Mois&eacute;s</a>
+                </li>
+                <li>
+                    <a href="#">Cristian L&oacute;pez</a>
+                </li>
+                <li>
+                    <a href="#">Noel Rold&acute;n</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                  <span class="hamb-top"></span>
+                  <span class="hamb-middle"></span>
+                   <span class="hamb-bottom"></span>
+            </button>
+            <div class="container dvfooter">
+                <div class="row">
+                    <div class="col-md-5">
+                    <img src="../img/foto-noel.jpg" class="adaptar img-fluid">   
+                    </div>
+                    <div class="col-md-7">
+                    <h2 class="section-heading nomargin">Noel Roldán</h2>
+                      <p class="lead">Mi nombre es Noel Roldán. Nací el 29 de Noviembre del año 1994 en San Salvador. Desde pequeño siempre disfruté del muchas ramas del arte, influenciado principalmente por mi familia. Solía dibujar cosas que veía en la televisión o en revistas y manchaba la parte trasera de todos mis cuadernos.  Desde siempre he sido un gran amante de la cultura popular, videojuegos, series de televisión y el cine.  Ello me ha inspirado a centrarme en la ilustración como medio de expresión principal junto a la cerámica, el dibujo y la fotografía. Me considero una persona abierta a seguir aprendiendo y creando nuevos contenidos que puedan guiarme a un estilo más específico en mi área de trabajo.</p>
+                       <hr class="section-heading-spacer">
+                    </div>
+                </div>
+            </div>
+            <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+        </div>
+
+    </div>
+    <!-- Bootstrap core JavaScript-->
+    <script src="../js/jquery/jquery-1.12.4.js"></script>
+    <script src="../js/bootstrap/bootstrap.js"></script>
+    <script src="../js/sb-admin.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function () {
+          var trigger = $('.hamburger'),
+          overlay = $('.overlay'),
+          isClosed = false;
+
+          trigger.click(function () {
+          hamburger_cross();      
+    });
+
+    function hamburger_cross() {
+
+      if (isClosed == true) {          
+        overlay.hide();
+        trigger.removeClass('is-open');
+        trigger.addClass('is-closed');
+        isClosed = false;
+      } else {   
+        overlay.show();
+        trigger.removeClass('is-closed');
+        trigger.addClass('is-open');
+        isClosed = true;
+      }
+  }
+  
+  $('[data-toggle="offcanvas"]').click(function () {
+        $('#wrapper').toggleClass('toggled');
+  });  
+});
+  </script> 
+  </div>
+</body>
+
+</html>
