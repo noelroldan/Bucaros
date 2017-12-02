@@ -88,3 +88,8 @@ padding: 0 !important;
 }
 
 /*clase moises*/
+
+.pacofooter {
+	background-color: rgb(220, 150, 0);
+	width: 100%
+}
