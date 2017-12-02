@@ -91,5 +91,8 @@ padding: 0 !important;
 
 .pacofooter {
 	background-color: rgb(220, 150, 0);
-	width: 100%
+	width: 100%;
+	padding-top: 3rem !important;
+	padding-bottom: 3rem !important;
+	color: rgb(255, 255, 255);
 }
